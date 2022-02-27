@@ -62,5 +62,5 @@ ON P.TEAM_ID = T.TEAM_ID INNER JOIN STADIUM S
 ON T.STADIUM_ID = S.STADIUM_ID
 ORDER BY 선수명;
 ```
-#출처
+# 출처
 https://dataonair.or.kr/db-tech-reference/d-guide/sql/?pageid=3&mod=document&uid=345
