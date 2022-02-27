@@ -44,7 +44,7 @@ Non EQUI(비등가) JOIN은 두 개의 테이블 간에 칼럼 값들이 서로 
 SELECT E.ENAME 사원명, E.SAL 급여, S.GRADE 급여등급
 FROM EMP E, SALGRADE S
 WHERE E.SAL BETWEEN S.LOSAL AND S.HISAL
-```sql
+```
 # 3개 이상 TABLE JOIN
 ![image](https://user-images.githubusercontent.com/96418287/155869803-a0b29f16-617b-4eed-871a-1c30c4fb9a99.png)
 
