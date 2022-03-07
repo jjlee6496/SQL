@@ -74,7 +74,7 @@ DB 버퍼, Redo log, 딕셔너리 캐시는 입출력을 빠르게 하기 위해
 3. 사용자가 커밋 또는 롤백 명령을 날릴 때
 WAL(Write Ahead Logging): Dirty 버퍼를 디스크에 기록하기 전에 해당 로그 엔트리를 먼저 로그 파일에 기록한다.  
 Log Force at commit: 로그 버퍼를 주기적으로 로그파일에 기록한다는데, 늦어도 커밋 시점에는 로그파일에 기록해야한다.  
-##Undo
+## Undo
 ### Undo의 목적
 1. Transaction Rollback
 2. Transaction Recovery
